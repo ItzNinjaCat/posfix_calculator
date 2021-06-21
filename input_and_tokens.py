@@ -1,4 +1,10 @@
 import math
+
+variables = {
+    'pi': math.pi,
+    'e': math.e
+    }
+
 operations = {
     '+' : lambda a, b : b + a,
     '-' : lambda a, b : b - a,
