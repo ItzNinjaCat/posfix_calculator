@@ -1,7 +1,7 @@
 from calculate import *
 
 while True:
-	tokens = ""
+	tokens = []
 	tokens = input_and_tokenise(tokens)
 	stack = []
 	
